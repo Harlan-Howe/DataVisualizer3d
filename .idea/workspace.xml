@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataVisualizer3D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plot3DTestHH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fromGeminiTest.py" afterDir="false" />
+    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="initial creation of DataVisualizer3D.py">
+      <change beforePath="$PROJECT_DIR$/DataVisualizer3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataVisualizer3D.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,19 @@
       <option name="presentableId" value="Default" />
       <updated>1757886911177</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial creation of DataVisualizer3D.py">
+      <option name="closed" value="true" />
+      <created>1757905058381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757905058381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial creation of DataVisualizer3D.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial creation of DataVisualizer3D.py" />
   </component>
 </project>
