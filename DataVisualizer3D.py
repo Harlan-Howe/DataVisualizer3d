@@ -8,6 +8,9 @@ from matplotlib.axes import Axes
 from matplotlib.collections import PathCollection
 from matplotlib.figure import Figure
 
+STAR_SIZE = 150
+WINDOW_SIZE = 450
+
 
 class DataVisualizer3d:
     def __init__(self):
@@ -38,13 +41,13 @@ class DataVisualizer3d:
                                                zs=attractors_np[:, 2],
                                                marker="o",
                                                color=(1.0, 1.0, 0.0, 0.33),
-                                               s=450)
+                                               s=WINDOW_SIZE)
         self.stars_plotted = self.ax.scatter(xs=attractors_np[:, 0],
                                              ys=attractors_np[:, 1],
                                              zs=attractors_np[:, 2],
                                              marker="*",
-                                             color=attractor_color_indices,
-                                             s=150)
+                                             c=attractor_color_indices,
+                                             s=STAR_SIZE)
 
     def setup_data_collection(self):
         """
@@ -90,7 +93,9 @@ class DataVisualizer3d:
         :return: None
         """
         if -1 < idx < len(self.data_points):
-            self.data_points[idx][3] = color_index
+            datum = list(self.data_points[idx])
+            datum[3] = color_index
+            self.data_points[idx] = tuple(datum)
 
     def add_attractor(self, position:List[int]|Tuple[int, int, int]):
         """
