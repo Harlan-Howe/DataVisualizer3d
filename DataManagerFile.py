@@ -3,6 +3,7 @@ from DataVisualizer3D import DataVisualizer3d
 class DataManager:
     def __init__(self):
         self.dv3 = DataVisualizer3d()
+        self.dv3.set_axis_labels("X - axis title", "Y - axis title", "Z - axis title")
 
         #  TODO: here is where you would load up your data and send the info to the datavisualizer3d. An example of
         #        data points being added is shown below. (Feel free to delete these examples when you are adding yours.)

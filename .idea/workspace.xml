@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="created a DataManager.">
+    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="fixed bugs in DV3 for colors; refactored constants for STAR_SIZE and WINDOW_SIZE.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataVisualizer3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataVisualizer3D.py" afterDir="false" />
     </list>
@@ -23,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Harlan-Howe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Harlan-Howe/Plot3DPractice.git",
+    "accountId": "50ce89f5-eb1c-416b-8267-a159a5f94b08"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -111,13 +123,24 @@
       <option name="project" value="LOCAL" />
       <updated>1757905718997</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed bugs in DV3 for colors; refactored constants for STAR_SIZE and WINDOW_SIZE.">
+      <option name="closed" value="true" />
+      <created>1757906097047</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757906097047</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial creation of DataVisualizer3D.py" />
     <MESSAGE value="documentation; moved self.count to __init__" />
     <MESSAGE value="created a DataManager." />
-    <option name="LAST_COMMIT_MESSAGE" value="created a DataManager." />
+    <MESSAGE value="fixed bugs in DV3 for colors; refactored constants for STAR_SIZE and WINDOW_SIZE." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs in DV3 for colors; refactored constants for STAR_SIZE and WINDOW_SIZE." />
+    <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
 </project>

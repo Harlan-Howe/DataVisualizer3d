@@ -28,6 +28,11 @@ class DataVisualizer3d:
 
         self.count = 0
 
+    def set_axis_labels(self, x_label:str, y_label:str, z_label:str):
+        self.ax.set_xlabel(x_label)
+        self.ax.set_ylabel(y_label)
+        self.ax.set_zlabel(z_label)
+
     def setup_attractor_collections(self):
         """
         This creates the non-empty collection of windows and attractors (large circles and stars).
