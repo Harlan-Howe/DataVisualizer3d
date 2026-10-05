@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="now axes are labeled.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b5ebcfba-5d03-4e77-a902-724a75abe683" name="Changes" comment="added parameter names to method calls.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataVisualizer3D.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataVisualizer3D.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +53,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
@@ -106,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757886911177</updated>
-      <workItem from="1791213753418" duration="58000" />
+      <workItem from="1791213753418" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="initial creation of DataVisualizer3D.py">
       <option name="closed" value="true" />
@@ -148,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757910990173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added parameter names to method calls.">
+      <option name="closed" value="true" />
+      <created>1791214029528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791214029528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +175,11 @@
     <MESSAGE value="created a DataManager." />
     <MESSAGE value="fixed bugs in DV3 for colors; refactored constants for STAR_SIZE and WINDOW_SIZE." />
     <MESSAGE value="now axes are labeled." />
-    <option name="LAST_COMMIT_MESSAGE" value="now axes are labeled." />
+    <MESSAGE value="added parameter names to method calls." />
+    <option name="LAST_COMMIT_MESSAGE" value="added parameter names to method calls." />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataVisualizer3d2025$DataManagerFile.coverage" NAME="DataManagerFile Coverage Results" MODIFIED="1791214832153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

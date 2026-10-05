@@ -11,6 +11,9 @@ from matplotlib.figure import Figure
 STAR_SIZE = 150
 WINDOW_SIZE = 450
 
+# RECOMMENDED: Go to Pycharm --> Settings --> Python --> Plots and turn OFF "Show Plots in Tool Window" so that the plot
+#              shows up in a window of its own as something you can drag to rotate and understand the 3d data.
+
 
 class DataVisualizer3d:
     def __init__(self):
@@ -113,7 +116,7 @@ class DataVisualizer3d:
         self.attractors.append(tuple(position))
         self.setup_attractor_collections()
 
-    def set_attractor_position(self, attractor_index, new_position:List[int]|Tuple[int, int, int, int]):
+    def set_attractor_position(self, attractor_index:int , new_position:List[int]|Tuple[int, int, int, int]):
         """
         alters the position of the attractor at the given index to a new (x, y) value
         :param attractor_index: the index of the attractor in the list
@@ -148,10 +151,11 @@ class DataVisualizer3d:
             self.callback_function()
 
         items_to_return:List[PathCollection] = []
-        if len(self.data_points) > 0:
+        if self.data_set_plotted is not None and len(self.data_points) > 0:
             items_to_return.append(self.data_set_plotted)
-        if len(self.attractors) > 0:
+        if self.windows_plotted is not None and len(self.attractors) > 0:
             items_to_return.append(self.windows_plotted)
+        if self.stars_plotted is not None and len(self.attractors) > 0:
             items_to_return.append(self.stars_plotted)
         return items_to_return
 
